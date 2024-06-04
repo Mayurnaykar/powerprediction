@@ -12,16 +12,6 @@ with open('power_predict.pkl', 'rb') as file:
     model = pickle.load(file)
 
 
-with st.sidebar:
-    selected_page = option_menu(
-        "Main Menu",
-        ["model", "About", "Contact"],
-        icons=["house", "info", "phone"],
-        menu_icon="cast",
-        default_index=0,
-        orientation="horizontal",
-    )
-
 # Adding some footer information
 st.sidebar.info("U can see different plots of power for different parameters ")
 
