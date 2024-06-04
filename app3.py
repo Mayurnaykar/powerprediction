@@ -11,6 +11,7 @@ with open('power_predict.pkl', 'rb') as file:
     model = pickle.load(file)
 
 
+
 # Adding some footer information
 st.sidebar.info("U can see different plots of power for different parameters ")
 
