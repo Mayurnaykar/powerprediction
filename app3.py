@@ -2,7 +2,6 @@ import streamlit as st
 import pickle
 import numpy as np
 import pandas as pd
-from streamlit_option_menu import option_menu
 
 import seaborn as sns
 import matplotlib as plt
